@@ -1,0 +1,8 @@
+---
+title: "Strings"
+params:
+  class: "7-strings"
+---
+
+```{r child = here::here("fragments", "class.qmd")}
+```

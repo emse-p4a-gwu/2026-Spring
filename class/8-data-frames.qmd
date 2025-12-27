@@ -1,0 +1,8 @@
+---
+title: "Data Frames"
+params:
+  class: "8-data-frames"
+---
+
+```{r child = here::here("fragments", "class.qmd")}
+```

@@ -1,0 +1,24 @@
+week,date,quiz,quiz_coverage,n_class,stub_class,name_class,description_class,n_assign,stub_assign,name_assign,due_assign,name_reading,stub_reading,reading
+1,2026-01-15,,,1.0,getting-started,Getting Started,"Class orientation, intro to R, workflow, operators, data types",1.0,getting-started,Getting Started,2026-01-20,"Getting Started
+Operations & Data Types","getting-started
+operators-data-types",
+2,2026-01-22,1.0,Week 1,2.0,functions-packages,Functions & Packages,"Functions, arguments, installing external packages, problem solving",2.0,functions-packages,Functions & Packages,2026-01-27,Functions & Packages,functions-packages,
+3,2026-01-29,2.0,Weeks 1 - 2,3.0,creating-functions,Creating Functions,"Defining your own functions, top-down structure",3.0,creating-functions,Creating Functions,2026-02-03,Creating Functions,creating-functions,
+4,2026-02-05,3.0,Weeks 2 - 3,4.0,conditionals-testing,Conditionals & Testing,"If / else statements, writing unit tests",4.0,conditionals-testing,Conditionals & Testing,2026-02-10,"Conditionals
+Testing & Debugging","conditionals
+testing-debugging",
+5,2026-02-12,4.0,Weeks 3 - 4,5.0,iteration,Iteration,Ins and outs of loops,5.0,iteration,Iteration,2026-02-17,Iteration,iteration,
+6,2026-02-19,5.0,Weeks 4 - 5,6.0,vectors,Vectors,Creating and slicing collections of values,6.0,vectors,Vectors,2026-02-24,Vectors,vectors,
+7,2026-02-26,6.0,Weeks 5 - 6,7.0,strings,Strings,All things between quotes,7.0,strings,Strings,2026-03-17,Strings,strings,
+8,2026-03-05,,,,,Midterm,Don't panic!,,,,,,,
+9,2026-03-12,,,,,Spring Break,No class,,,,,,,
+10,2026-03-19,,,8.0,data-frames,Data Frames,Rows and columns of data,8.0,data-frames,Data Frames,2026-03-24,"Data Analysis
+Data Frames","data-analysis
+data-frames",
+11,2026-03-26,7.0,Week 10,9.0,data-wrangling,Data Wrangling,Modifying data frames,9.0,data-wrangling,Data Wrangling,2026-03-31,Data Wrangling,data-wrangling,
+12,2026-04-02,8.0,Week 11,10.0,data-visualization,Data Visualization,Visualizing your data,10.0,data-visualization,Data Visualization,2026-04-07,Data Visualization,data-visualization,
+13,2026-04-09,9.0,Week 12,11.0,programming-with-data,Programming with Data,Iterating through data frames and writing functions to summarize data,11.0,programming-with-data,Programming with Data,2026-04-14,Programming with Data,,"<a href=https://r4ds.hadley.nz/functions.html#data-frame-functions target=""_blank""><b>Sections 26.3 & 26.4 in R4DS</b></a><br><a href=https://www.rebeccabarter.com/blog/2019-08-19_purrr target=""_blank""><b>Post on iteration with {purrr}</b></a>"
+14,2026-04-16,10.0,Week 13,12.0,webscraping,Webscraping,Collecting data embedded in web pages,12.0,webscraping,Webscraping,2026-04-21,Webscraping,,"<a href=https://r4ds.hadley.nz/webscraping.html target=""_blank""><b>Chapter 25 in R4DS</b></a><br><a href=https://statisticsglobe.com/api-in-r target=""_blank""><b>Post on APIs in R</b></a>"
+15,2026-04-23,,,13.0,monte-carlo-methods,Monte Carlo Methods,Using simulation to solve problems,13.0,monte-carlo-methods,Monte Carlo Methods,2026-04-28,Monte Carlo Methods,monte-carlo-methods,
+16,2026-04-30,,,14.0,final-review,Final Exam Review,Overview of entire course,,,,,,,
+17,2026-05-07,,,,,Final Exam,3pm-5pm in Tompkins 201,,,,,,,

@@ -1,0 +1,8 @@
+---
+title: "Webscraping"
+params:
+  class: "12-webscraping"
+---
+
+```{r child = here::here("fragments", "class.qmd")}
+```

@@ -1,0 +1,8 @@
+---
+title: "Vectors"
+params:
+  class: "6-vectors"
+---
+
+```{r child = here::here("fragments", "class.qmd")}
+```

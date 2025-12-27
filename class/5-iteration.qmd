@@ -1,0 +1,8 @@
+---
+title: "Iteration"
+params:
+  class: "5-iteration"
+---
+
+```{r child = here::here("fragments", "class.qmd")}
+```
