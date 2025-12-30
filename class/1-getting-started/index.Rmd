@@ -99,16 +99,16 @@ Assistant Professor, Engineering Management & Systems Engineering
 
 .leftcol30[.circle[
 
-<img src="images/lola_nurullaeva.jpg" width="300">
+<img src="images/bunea.jpg" width="300">
 
 ]]
 
 .rightcol70[
 
-### **Lola Nurullaeva**
+### **Bogdan Bunea**
 
 - Learning Assistant (LA)
-- EMSE Senior & P4A / EDA alumni
+- EMSE Junior & P4A / EDA alumni
 
 ]
 
@@ -135,7 +135,7 @@ Assistant Professor, Engineering Management & Systems Engineering
 
 ### In the fall, you'll take EMSE 4572 / 6572: Exploratory Data Analysis
 
-### [Fall 2025 Project Showcase](https://eda.seas.gwu.edu/showcase.html#fall-2024)
+### [Fall 2025 Project Showcase](https://eda.seas.gwu.edu/showcase.html#fall-2025)
 
 ---
 
