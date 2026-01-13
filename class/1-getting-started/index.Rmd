@@ -76,26 +76,7 @@ Assistant Professor, Engineering Management & Systems Engineering
 
 ---
 
-# Meet your tutors!
-
-.leftcol30[.circle[
-
-<img src="images/pingfan_hu.jpg" width="300">
-
-]]
-
-.rightcol70[
-
-### **Pingfan Hu**
-
-- Graduate Teaching Assistant (GTA)
-- 2nd Year PhD student in EMSE
-
-]
-
----
-
-# Meet your tutors!
+# Meet your tutor!
 
 .leftcol30[.circle[
 
@@ -108,7 +89,7 @@ Assistant Professor, Engineering Management & Systems Engineering
 ### **Bogdan Bunea**
 
 - Learning Assistant (LA)
-- EMSE Junior & P4A / EDA alumni
+- EMSE Senior & P4A / EDA alumni
 
 ]
 
