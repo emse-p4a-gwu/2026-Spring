@@ -64,7 +64,7 @@ class: center, inverse, middle
 
 .font80[
 
-Assistant Professor, Engineering Management & Systems Engineering
+Associate Professor, Engineering Management & Systems Engineering
 
 - 2016-2018 Postdoc at [Institute for Sustainable Energy](https://www.bu.edu/ise/), Boston University
 - 2016 PhD in Engineering & Public Policy at Carnegie Mellon University
@@ -159,6 +159,7 @@ Assistant Professor, Engineering Management & Systems Engineering
 <br>
 
 ### - **3** late days - use them anytime, no questions asked
+### - Submit late assignments on **slack**
 ### - After that, 50% off for up to 24 hours after deadline, 0% afterwards
 ### - Contact me for special cases
 
@@ -170,7 +171,7 @@ Assistant Professor, Engineering Management & Systems Engineering
 
 --
 
-## `r fa('calendar')` In class (almost) every other week (10 total, drop lowest 2)
+## `r fa('calendar')` In class (almost) every week (10 total, drop lowest 2)
 
 --
 
@@ -186,7 +187,7 @@ Assistant Professor, Engineering Management & Systems Engineering
 
 <br>
 
-## `r fa('calendar')` Midterm (weeks 1 - 7) on March 05
+## `r fa('calendar')` Midterm (weeks 1 - 6) on March 05
 
 ## `r fa('calendar')` Final (weeks 1 - 14) on May 07
 
@@ -279,6 +280,8 @@ class: center
 ---
 
 # How to succeed in this class
+
+<br>
 
 --
 
