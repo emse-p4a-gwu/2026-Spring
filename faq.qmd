@@ -114,3 +114,15 @@ df <- read_csv(path)
 The `here()` function defines your project directory. Its input of `"data"` and `"file.csv"` are below this directory.
 
 By running `read_csv(path)`, your data is loaded to `df`.
+
+## Who in the R / dataviz world should I be following?^[This section is largely borrowed / inspired by Andrew Heiss's site [here](https://datavizf25.classes.andrewheiss.com/news/2025-12-10_faqs_week-15.html)]
+
+One of the best ways to stay on top of things in the R world is to follow leading people in the field. Here are some who I follow who inspire me. I'd recommend also looking at who these people follow on Bluesky and LinkedIn and following them as well.
+
+- **Andrew Heiss** ([Bluesky](https://bsky.app/profile/andrew.heiss.phd); [LinkedIn](https://www.linkedin.com/in/andrewheiss/)) is an Assistant Professor at Georgia State University in the Andrew Young School of Policy Studies and regularly posts and blogs on new tools and techniques in the R landscape. 
+- **Libby Heeren** ([Bluesky](https://bsky.app/profile/libbyheeren.bsky.social); [LinkedIn](https://www.linkedin.com/in/libbyheeren)) is Posit's official online community builder and she does an amazing job boosting resources and tools and encouraging people to learn these tools. She also runs Posit's weekly [Data Science Hangout](https://pos.it/dsh) and other neat events.
+- **Nicola Rennie** ([Bluesky](https://bsky.app/profile/nrennie.bsky.social); [LinkedIn](https://www.linkedin.com/in/nicola-rennie/); [web](https://nrennie.rbind.io/)) is a professional data visualization expert. She's famous for doing something almost every week for Tidy Tuesday (hundreds of plots! [check them out here!](https://nrennie.rbind.io/viz-gallery/)), and she has [a free online book](https://nrennie.rbind.io/art-of-viz/) that shows her step-by-step process for building incredible charts with R and ggplot. Check out the book and follow her!
+- **Cédric Scherer** ([Bluesky](https://bsky.app/profile/cedricscherer.com); [LinkedIn](https://www.linkedin.com/in/cedscherer); [web](https://www.cedricscherer.com/)) is a professional data visualization expert who posts all sorts of fantastic blog posts and tutorials (you've seen some of his stuff as readings in past weeks).
+- **Kieran Healy** ([Bluesky](https://bsky.app/profile/kjhealy.co)) and **Claus Wilke** ([Bluesky](https://bsky.app/profile/clauswilke.com))—the authors of the two textbooks that I use in the follow-on course to this one ([EMSE 4572: Exploratory Data Analysis](https://eda.seas.gwu.edu/)).
+
+

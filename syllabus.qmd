@@ -269,11 +269,12 @@ While the University Library is not a stand in for TAs, you can schedule a consu
 
 ## tl;dr
 
-- BE NICE
 - BE ON TIME
+- BE NICE
 - BE HONEST
 - DON'T CHEAT
 - SERIOUSLY: DON'T CHEAT
+- DON'T USE LLMs
 
 ## Late Policy
 
@@ -285,14 +286,30 @@ If you need a special accommodation such as due to an illness, family emergency,
 
 ## Use of chatGPT and other AI tools
 
-Large language models (LLMs) are capable of producing exact solutions to nearly all of the coding problems assigned in this class. That means we all basically have a solutions manual available for free.
+This class is about developing a mindset for approaching hard problems, and every assignment (both in class and at home) was carefully designed to build that. LLMs steal that opportunity from you. I strongly, strongly encourage you to **NOT** use any LLMs in this class. 
 
-With this in mind, the use of AI is permitted as follows:
+Don't get me wrong - tools like ChatGPT *are* useful for coding ([see this take, which I agree with](https://www.andrewheiss.com/ai/#code)). But they're only useful if you know what you're doing first. If you skip the learning-the-process-of-writing-code step and just copy/paste output from ChatGPT, you will not learn. You cannot learn. You cannot improve. You will not understand the code. And you will not develop the core problem-solving strategies that we use to write good code.
 
-- **Assignments 1-7**: AI tools are **not permitted** unless explicitly instructed. Copying code from an AI tool and submitting it as your own for these assignments will be considered cheating. In this section of the course, we are building foundational skills in computational thinking and problem solving. If you don't master these skills, you won't be able to interpret what chatGPT is giving you, and you won't be able to test if it is wrong. Master these skills first so that you know _how_ to use AI tools effectively in your coding.
-- **Assignments 8-13**: AI tools are permitted, with caveats. If you do use an AI tool on these assignments, you must include a link to the chat conversation you had to receive full credit.
+There is no LLM-based shortcut to developing those skills. **You cannot LLM your way into domain knowledge, data analysis expertise, or coding ability.**
 
-Learn to use tools like ChatGPT as a learning assistant - a tool to help you accomplish the task - rather than just a solutions manual. One version of using it makes you a better and more efficient coder, the other robs you of that.
+The only way to gain domain knowledge, data analysis expertise, and coding ability is to struggle. To get errors. To google those errors. To look over the documentation. To copy/paste your own code and adapt it for different purposes. To explore messy datasets. To struggle to clean those datasets. To spend an hour looking for a missing comma.
+
+To be clear, this isn't some form of programming hazing, like "I had to learn the hard way and so now you must too." It's just the actual process of learning and growing and developing and improving. You've gotta struggle to learn, period.
+
+This Tumblr post puts it well (it's about art specifically, but it applies to coding and data analysis too):
+
+> Contrary to popular belief the biggest beginner's roadblock to art isn't even technical skill it's **frustration tolerance**, especially in the age of social media. **It hurts and the frustration is endless but you must build the frustration tolerance equivalent to a roach's capacity to survive a nuclear explosion**. That's how you build on the technical skill. Throw that "won't even start because I'm afraid it won't be perfect" shit out the window. Just do it. Just start. Good luck.
+>
+> (*The original post has disappeared, but [here's a reblog](https://sinisterlaugher.tumblr.com/post/784894680255152128).*)
+
+Once you've developed these skills, you have enough knowledge and expertise to use LLMs and fight and argue with them and speed things up. But before that point, you're in danger-land.
+
+So, with all of that in mind, the use of AI tools is permitted as follows:
+
+- **Assignments 1-7**: All AI tools are **strictly not permitted**. Copying code from an AI tool and submitting it as your own for these assignments will be considered cheating. In this section of the course, we are building **foundational skills** in computational thinking and problem solving. If you don't master these skills, you won't be able to interpret what an LLM is giving you, and you won't be able to test if it is wrong. Master these skills first so that you know _how_ to use AI tools effectively in your coding.
+- **Assignments 8-13**: AI tools are permitted, with caveats. You may use an LLM to help you further understand ideas around the tools we are covering in class, but again, directly copying code from an AI tool and submitting it as your own for these assignments will be considered cheating. If you do use an AI tool on these assignments, you must include a link to the chat conversation you had to receive full credit.
+
+Learn to use tools like ChatGPT as a learning assistant - a tool to help you accomplish the task - rather than a solutions manual. One version of using it makes you a better and more efficient problem solver and coder, the other robs you of that.
 
 In the follow-on course to this one ([EMSE 4572: Exploratory Data Analysis](https://eda.seas.gwu.edu/)), the use of AI will be allowed to support your projects.
 
@@ -458,3 +475,4 @@ Some content on this page is inspired by and / or modified from other sources:
 
 - The "Pep Talk" and "Cute Animals" sections are inspired by [Andrew Heiss's courses](https://www.andrewheiss.com/teaching/).
 - The cheating policy is modified from the course [15-112](http://www.kosbie.net/cmu/fall-19/15-112/) at Carnegie Mellon University
+- The section on my AI / LLM policy is largely borrowed / inspired by Andrew Heiss's site [here](https://datavizf25.classes.andrewheiss.com/news/2025-12-10_faqs_week-15.html)
