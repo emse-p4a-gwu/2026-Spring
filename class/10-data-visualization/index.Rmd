@@ -1,7 +1,7 @@
 ---
 title: "Data Visualization"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: April 03, 2025
+date: April 02, 2026
 week: 10
 class: "10-data-visualization"
 author: "John Paul Helveston"

@@ -4,13 +4,13 @@
 # Block 1:
 val <- abs(x <- sqrt(10))
 result <- round(val, digits <- sqrt(10))
-answer <- x*digits
+answer <- x * digits
 answer
 
 # Block 2:
 val <- sqrt(abs(min(-42, -64, 81)))
 result <- floor(y = min(val, log(10)))
-answer <- result*val
+answer <- result * val
 answer
 
 # Follow these steps:
@@ -20,19 +20,15 @@ answer
 # 3. Compare your expectations with each other.
 # 4. Run the code and compare the results with your expectations.
 
-
-
-
 # ------------------------------------------------
 # Practice 2: Data types
 
-
-number    <- as.logical(as.numeric('3'))
+number <- as.logical(as.numeric('3'))
 character <- is.character(typeof(7))
-true      <- as.logical("FALSE")
-false     <- as.logical(as.numeric(TRUE))
+true <- as.logical("FALSE")
+false <- as.logical(as.numeric(TRUE))
 
-! (number == character) & (true | false) | (number & false)
+!(number == character) & (true | false) | (number & false)
 
 # Follow these steps:
 
@@ -40,8 +36,6 @@ false     <- as.logical(as.numeric(TRUE))
 # 2. Write down out what you expect R will return when these lines are run in sequence.
 # 3. Compare your expectations with each other.
 # 4. Run the code and compare the results with your expectations.
-
-
 
 # ------------------------------------------------
 # Practice 3: Packages
@@ -54,27 +48,19 @@ false     <- as.logical(as.numeric(TRUE))
 # 6. Try drawing this shape with your turtle<br>(hint: the length of each line is 50 units).
 # 7. Compare your results and code with each other.
 
-
-
-
-
-
-
 # ------------------------------------------------
 # Practice 4: Polya's problem solving technique
 
 # Polya practice 1: What's your degree worth?
 
-# In the U.S., the average annual salary of a high school graduate is $35,256,
-# and the average salary of a GW graduate is $76,151. However, GW grads pay an
-# average of $70,000 / year (tuition + fees + housing) for 4 years for their
+# In the U.S., the average annual salary of a high school graduate is $38,376,
+# and the average salary of a GW graduate is $92,000 However, GW grads pay an
+# average of $80,000 / year (tuition + fees + housing) for 4 years for their
 # degree, and high school grads are working that entire time.
 
 # Assuming immediate employment after graduation, how many years after
 # graduating will the GW grad need to work until their net income (salary minus
 # cost of education) surpasses that of the average high school graduate?
-
-
 
 # Step 1: Understand the problem
 
@@ -83,9 +69,6 @@ false     <- as.logical(as.numeric(TRUE))
 # Step 3: Carry out plan:
 
 # Step 4: Check your work
-
-
-
 
 # Polya practice 2: Prius vs. Camry
 
@@ -97,8 +80,6 @@ false     <- as.logical(as.numeric(TRUE))
 
 # How long (in years) would Kevin have to drive the Prius for the money he saves
 # in fuel savings to be greater than the price premium compared to the Camry?
-
-
 
 # Step 1: Understand the problem
 

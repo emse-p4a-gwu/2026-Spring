@@ -10,10 +10,11 @@ tools::compactPDF(paste0(lesson, ".pdf"), gs_quality = 'ebook')
 
 # Create zip files of class notes
 zip::zip(
-    zipfile = paste0(lesson, ".zip"),
-    files = c(
-        # 'data',
-        'practice.R', 
-        'practice-solutions.R',
-        paste0(lesson, ".Rproj"))
+  zipfile = paste0(lesson, ".zip"),
+  files = c(
+    # 'data',
+    'practice.R',
+    'practice-solutions.R',
+    paste0(lesson, ".Rproj")
+  )
 )
