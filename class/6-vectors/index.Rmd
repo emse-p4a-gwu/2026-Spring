@@ -1,7 +1,7 @@
 ---
 title: "Vectors"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: February 20, 2025
+date: February 19, 2026
 week: 6
 class: "6-vectors"
 author: "John Paul Helveston"

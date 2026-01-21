@@ -1,7 +1,7 @@
 ---
 title: "Programming with Data"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: April 10, 2025
+date: April 09, 2026
 week: 11
 class: "11-programming-with-data"
 author: "John Paul Helveston"

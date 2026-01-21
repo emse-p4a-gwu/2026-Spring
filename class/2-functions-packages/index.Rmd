@@ -1,7 +1,7 @@
 ---
 title: "Functions & Packages"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: January 23, 2025
+date: January 22, 2026
 week: 2
 class: "2-functions-packages"
 author: "John Paul Helveston"
@@ -938,8 +938,8 @@ countdown(
 
 .rightcol65[
 
-In the U.S., the average annual salary of a high school graduate is [$35,256](https://smartasset.com/retirement/the-average-salary-by-education-level), and the average salary of a GW graduate is
-<a href="https://www.payscale.com/research/US/School=George_Washington_University_(GWU)/Salary">$76,151</a>. However, GW grads pay an average of $70,000 / year (tuition + fees + housing) for 4 years for their degree, and high school grads are working that entire time. 
+In the U.S., the average annual salary of a high school graduate is [$38,376](https://smartasset.com/retirement/the-average-salary-by-education-level), and the average salary of a GW graduate is
+<a href="https://www.payscale.com/research/US/School=George_Washington_University_(GWU)/Salary">$92,000</a>. However, GW grads pay an average of $80,000 / year (tuition + fees + housing) for 4 years for their degree, and high school grads are working that entire time. 
 
 Assuming immediate employment after graduation, .orange[how many years after graduating will the GW grad need to work until their net income (salary minus cost of education) surpasses that of the average high school graduate?]
 

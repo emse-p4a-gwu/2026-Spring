@@ -4,13 +4,13 @@
 # Block 1:
 val <- abs(x <- sqrt(10))
 result <- round(val, digits <- sqrt(10))
-answer <- x*digits
+answer <- x * digits
 answer
 
 # Block 2:
 val <- sqrt(abs(min(-42, -64, 81)))
 result <- floor(y = min(val, log(10)))
-answer <- result*val
+answer <- result * val
 answer
 
 # Follow these steps:
@@ -19,7 +19,6 @@ answer
 # 2. Write down out what you expect R will return when these lines are run in sequence.
 # 3. Compare your expectations with each other.
 # 4. Run the code and compare the results with your expectations.
-
 
 # NOTES:
 # Work backwards from the "inside out" to simplify each line of code.
@@ -27,18 +26,15 @@ answer
 # - The usage of the "<-" operator also creates a "global" variable
 # - The argument names may not be correct!
 
-
-
 # ------------------------------------------------
 # Practice 2: Data types
 
-
-number    <- as.logical(as.numeric('3'))
+number <- as.logical(as.numeric('3'))
 character <- is.character(typeof(7))
-true      <- as.logical("FALSE")
-false     <- as.logical(as.numeric(TRUE))
+true <- as.logical("FALSE")
+false <- as.logical(as.numeric(TRUE))
 
-! (number == character) & (true | false) | (number & false)
+!(number == character) & (true | false) | (number & false)
 
 # Follow these steps:
 
@@ -47,21 +43,20 @@ false     <- as.logical(as.numeric(TRUE))
 # 3. Compare your expectations with each other.
 # 4. Run the code and compare the results with your expectations.
 
-
 # NOTES:
 # Work backwards from the "inside out" to simplify each line of code.
 # Be careful that:
 
-number    <- TRUE
+number <- TRUE
 character <- TRUE
-true      <- FALSE
-false     <- TRUE
+true <- FALSE
+false <- TRUE
 
-! (number == character) & (true | false) | (number & false)
+!(number == character) & (true | false) | (number & false)
 
 # Simplifies to:
 
-! TRUE & TRUE | TRUE
+!TRUE & TRUE | TRUE
 
 # Simplifies to:
 
@@ -95,25 +90,19 @@ turtle_forward(25)
 turtle_reset()
 
 
-
-
-
-
 # ------------------------------------------------
 # Practice 4: Polya's problem solving technique
 
 # Polya practice 1: What's your degree worth?
 
-# In the U.S., the average annual salary of a high school graduate is $35,256,
-# and the average salary of a GW graduate is $76,151. However, GW grads pay an
-# average of $70,000 / year (tuition + fees + housing) for 4 years for their
+# In the U.S., the average annual salary of a high school graduate is $38,376,
+# and the average salary of a GW graduate is $92,000 However, GW grads pay an
+# average of $80,000 / year (tuition + fees + housing) for 4 years for their
 # degree, and high school grads are working that entire time.
 
 # Assuming immediate employment after graduation, how many years after
 # graduating will the GW grad need to work until their net income (salary minus
 # cost of education) surpasses that of the average high school graduate?
-
-
 
 # Step 1: Understand the problem
 # Restate the problem: How many years after graduating will a GW grad's net
@@ -129,13 +118,13 @@ turtle_reset()
 # Step 3: Carry out plan:
 
 # Known values
-salary_hs <- 35256
-salary_gw <- 76151
-gw_annual_cost <- 70000
+salary_hs <- 38376
+salary_gw <- 92000
+gw_annual_cost <- 80000
 years_in_college <- 4
 
 # Cost of education + 4 years hs grad salary
-income_gap_start <- years_in_college*(salary_hs + gw_annual_cost)
+income_gap_start <- years_in_college * (salary_hs + gw_annual_cost)
 
 # Find the annual salary surplus of gw grad compared to hs grad
 gw_annual_surplus <- salary_gw - salary_hs
@@ -143,7 +132,7 @@ gw_annual_surplus <- salary_gw - salary_hs
 # Divide annual income surplus into income starting gap
 ceiling(income_gap_start / gw_annual_surplus)
 
-# Step 4: Check your work 
+# Step 4: Check your work
 
 # Check intermediate values
 income_gap_start
@@ -152,7 +141,6 @@ gw_annual_surplus
 # Can we ask a different question?
 # What would my salary need to be to cut that to just 5 years?
 (income_gap_start / 5) + salary_hs
-
 
 
 # Polya practice 2: Prius vs. Camry
@@ -165,7 +153,6 @@ gw_annual_surplus
 
 # How long (in years) would Kevin have to drive the Prius for the money he saves
 # in fuel savings to be greater than the price premium compared to the Camry?
-
 
 # Step 1: Understand the problem
 
@@ -185,8 +172,8 @@ gw_annual_surplus
 # Known values
 price_camry <- 24000
 price_prius <- 27600
-mpg_camry   <- 28    # Mpg = miles per gallon
-mpg_prius   <- 55
+mpg_camry <- 28 # Mpg = miles per gallon
+mpg_prius <- 55
 annual_miles <- 12000 # miles
 price_gas <- 3.00 # per gallon
 
@@ -198,14 +185,14 @@ annual_gallons_prius <- annual_miles / mpg_prius
 annual_gallons_camry <- annual_miles / mpg_camry
 
 # Compute annual fuel cost savings from Prius
-annual_fuelcost_prius <- annual_gallons_prius*price_gas
-annual_fuelcost_camry <- annual_gallons_camry*price_gas
+annual_fuelcost_prius <- annual_gallons_prius * price_gas
+annual_fuelcost_camry <- annual_gallons_camry * price_gas
 annual_fuel_savings <- annual_fuelcost_camry - annual_fuelcost_prius
 
 # Divide fuel savings into price premium
 price_premium / annual_fuel_savings
 
-# Step 4: Check your work 
+# Step 4: Check your work
 
 # Check intermediate values
 annual_gallons_prius

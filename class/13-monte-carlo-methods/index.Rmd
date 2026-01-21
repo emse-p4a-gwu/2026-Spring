@@ -1,7 +1,7 @@
 ---
 title: "Monte Carlo Methods"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: April 24, 2025
+date: April 23, 2026
 week: 13
 class: "13-monte-carlo-methods"
 author: "John Paul Helveston"

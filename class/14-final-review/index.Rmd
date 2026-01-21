@@ -1,7 +1,7 @@
 ---
 title: "Final Review"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: May 01, 2025
+date: April 30, 2026
 week: 14
 class: "14-final-review"
 author: "John Paul Helveston"

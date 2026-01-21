@@ -1,7 +1,7 @@
 ---
 title: "Data Wrangling"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: March 27, 2025
+date: March 26, 2026
 week: 9
 class: "9-data-wrangling"
 author: "John Paul Helveston"
