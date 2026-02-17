@@ -65,7 +65,7 @@ countdown(
 
 # Midterm
 
-- Midterm is during class period on 3/6 and will **not** include strings (next week's content).
+- Midterm is during class period on 3/5 and will **not** include strings (next week's content).
 - Includes everything up to and including vectors.
 - Paper and pen / pencil only (just like quizzes).
 - You can bring a single 8.5x11 sheet of notes with anything on it (front & back).
@@ -844,7 +844,7 @@ Remember, `isPrime(n)` takes a non-negative integer, `n`, and returns `TRUE` if 
 
 .rightcol[
 
-## Hint:
+## Loop solution:
 
 .code80[
 
