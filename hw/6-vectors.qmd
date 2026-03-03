@@ -64,7 +64,7 @@ Write the function `middleValue(a)` that takes a vector of numbers `a` and retur
 
 ### 6) `fibonacciSequence(n)`  [COLLABORATIVE, 15%]
 
-Write the function `fibonacciSequence(n)` that returns a vector containing the first `n` numbers in the [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence). Assume that `n` is a whole number greater or equal to 1, and also that the first number in the sequence is `1`, so `fibonacciSequence(1) == 1` should be `TRUE`. For all numbers where `n > 1`, the function should return a vector, e.g. `identical(idenfibonacciSequence(2), c(1, 1))` should be `TRUE`.
+Write the function `fibonacciSequence(n)` that returns a vector containing the first `n` numbers in the [Fibonacci Sequence](https://en.wikipedia.org/wiki/Fibonacci_sequence). Assume that `n` is a whole number greater or equal to 1, and also that the first number in the sequence is `1`, so `fibonacciSequence(1) == 1` should be `TRUE`. For all numbers where `n > 1`, the function should return a vector, e.g. `identical(fibonacciSequence(2), c(1, 1))` should be `TRUE`.
 
 ### 7) `removeRepeats(x)` [COLLABORATIVE, 15%]
 
