@@ -4,5 +4,5 @@ params:
   class: "8-data-frames"
 ---
 
-```{r child = here::here("fragments", "placeholder.qmd")}
+```{r child = here::here("fragments", "class.qmd")}
 ```
