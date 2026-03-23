@@ -4,5 +4,5 @@ params:
   class: "9-data-wrangling"
 ---
 
-```{r child = here::here("fragments", "placeholder.qmd")}
+```{r child = here::here("fragments", "class.qmd")}
 ```
