@@ -530,7 +530,7 @@ beatles
 Compute and add the age of the bandmembers:
 
 ```{r}
-beatles$age <- 2023 - beatles$yearOfBirth
+beatles$age <- 2026 - beatles$yearOfBirth
 beatles
 ```
 

@@ -627,7 +627,7 @@ Example: Use the `yearOfBirth` variable to compute the age of each band member
 **Base R**:
 
 ```{r, eval=FALSE}
-spicegirls$age <- 2025 - spicegirls$yearOfBirth
+spicegirls$age <- 2026 - spicegirls$yearOfBirth
 ```
 
 --
@@ -636,7 +636,7 @@ spicegirls$age <- 2025 - spicegirls$yearOfBirth
 
 ```{r}
 spicegirls %>%
-    mutate(age = 2025 - yearOfBirth)
+    mutate(age = 2026 - yearOfBirth)
 ```
 
 ---
@@ -646,7 +646,7 @@ spicegirls %>%
 ```{r}
 spicegirls %>%
     mutate(
-        age = 2025 - yearOfBirth,
+        age = 2026 - yearOfBirth,
         meanAge  = mean(age)) # Immediately using the "age" variable #<<
 ```
 
@@ -731,7 +731,7 @@ Compute the mean band member age across the whole dataset
 ```{r}
 bands %>%
     mutate(
-        age = 2025 - yearOfBirth,
+        age = 2026 - yearOfBirth,
         mean_age = mean(age) # This is the mean across both bands #<<
     )
 ```
@@ -744,7 +744,7 @@ Compute the mean band member age **for each band**
 
 ```{r}
 bands %>%
-    mutate(age = 2025 - yearOfBirth) %>%
+    mutate(age = 2026 - yearOfBirth) %>%
     group_by(band) %>% # Everything after this will be done each band #<<
     mutate(mean_age = mean(age))
 ```
@@ -768,7 +768,7 @@ Compute the mean band member age across the whole dataset
 
 ```{r}
 bands %>%
-    mutate(age = 2025 - yearOfBirth) %>%
+    mutate(age = 2026 - yearOfBirth) %>%
     summarise(mean_age = mean(age))
 ```
 
@@ -780,7 +780,7 @@ Compute the mean band member age for **each band**
 
 ```{r}
 bands %>%
-    mutate(age = 2025 - yearOfBirth) %>%
+    mutate(age = 2026 - yearOfBirth) %>%
     group_by(band) %>% #<<
     summarise(mean_age = mean(age))
 ```
@@ -793,7 +793,7 @@ Compute the mean, min, and max band member age for **each band**
 
 ```{r}
 bands %>%
-    mutate(age = 2025 - yearOfBirth) %>%
+    mutate(age = 2026 - yearOfBirth) %>%
     group_by(band) %>%
     summarise(
         mean_age = mean(age),

@@ -4,7 +4,7 @@
     <title>Data Wrangling</title>
     <meta charset="utf-8" />
     <meta name="author" content="John Paul Helveston" />
-    <meta name="date" content="2025-03-27" />
+    <meta name="date" content="2026-03-26" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -19,16 +19,16 @@
     <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
     <meta name="description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
     <meta name="generator" content="xaringan and remark.js"/>
-    <meta name="github-repo" content="emse-p4a-gwu/2024-Spring"/>
+    <meta name="github-repo" content="emse-p4a-gwu/2026-Spring"/>
     <meta name="twitter:title" content="Data Wrangling"/>
     <meta name="twitter:description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
-    <meta name="twitter:url" content="https://p4a.seas.gwu.edu/2024-Spring/"/>
+    <meta name="twitter:url" content="https://p4a.seas.gwu.edu/2026-Spring/"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:creator" content="@johnhelveston"/>
     <meta name="twitter:site" content="@johnhelveston"/>
     <meta property="og:title" content="Data Wrangling"/>
     <meta property="og:description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
-    <meta property="og:url" content="https://p4a.seas.gwu.edu/2024-Spring/"/>
+    <meta property="og:url" content="https://p4a.seas.gwu.edu/2026-Spring/"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="en_US"/>
     <meta property="article:author" content="John Paul Helveston"/>
@@ -60,7 +60,7 @@ class: middle, inverse
 
 ### <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> EMSE 4571 / 6571: Intro to Programming for Analytics
 ### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg> John Paul Helveston
-### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/></svg> March 27, 2025
+### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/></svg> March 26, 2026
 
 ]
 
@@ -72,10 +72,7 @@ class: inverse
 
 # Quiz 7
 
-<div class="countdown" id="timer_47cb379f" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:3em;">
-<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
+<countdown-timer class="countdown" id="timer_b9ccce9b" minutes="10" seconds="0" warn-when="30" update-every="1" tabindex="0" style="top:0;right:0;--countdown-font-size:3em;"></countdown-timer>
 
 .leftcol[
 
@@ -491,10 +488,7 @@ filter(data, !is.na(variable))
 
 class: inverse
 
-<div class="countdown" id="timer_3837f9d2" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
-<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
+<countdown-timer class="countdown" id="timer_975b2be4" minutes="10" seconds="0" warn-when="30" update-every="1" tabindex="0" style="top:0;right:0;--countdown-font-size:2em;"></countdown-timer>
 
 ## Your turn: wildlife impacts data
 
@@ -725,10 +719,7 @@ spicegirls %&gt;%
 
 class: inverse
 
-<div class="countdown" id="timer_5836b47c" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
-<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
+<countdown-timer class="countdown" id="timer_e90a6bf4" minutes="10" seconds="0" warn-when="30" update-every="1" tabindex="0" style="top:0;right:0;--countdown-font-size:2em;"></countdown-timer>
 
 ## Your turn
 
@@ -752,10 +743,7 @@ class: inverse, center
 
 # .fancy[Break]
 
-<div class="countdown" id="timer_1d93c027" data-warn-when="30" data-update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;margin:5%;font-size:8em;">
-<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
+<countdown-timer class="countdown" id="timer_f0a5d3af" minutes="5" seconds="0" warn-when="30" update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;--countdown-margin:5%;--countdown-font-size:8em;"></countdown-timer>
 
 ---
 
@@ -805,7 +793,7 @@ Example: Use the `yearOfBirth` variable to compute the age of each band member
 
 
 ``` r
-spicegirls$age &lt;- 2025 - spicegirls$yearOfBirth
+spicegirls$age &lt;- 2026 - spicegirls$yearOfBirth
 ```
 
 --
@@ -815,18 +803,18 @@ spicegirls$age &lt;- 2025 - spicegirls$yearOfBirth
 
 ``` r
 spicegirls %&gt;%
-    mutate(age = 2025 - yearOfBirth)
+    mutate(age = 2026 - yearOfBirth)
 ```
 
 ```
 #&gt; # A tibble: 5 × 6
 #&gt;   firstName lastName  spice  yearOfBirth deceased   age
 #&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;chr&gt;        &lt;dbl&gt; &lt;lgl&gt;    &lt;dbl&gt;
-#&gt; 1 Melanie   Brown     Scary         1975 FALSE       50
-#&gt; 2 Melanie   Chisholm  Sporty        1974 FALSE       51
-#&gt; 3 Emma      Bunton    Baby          1976 FALSE       49
-#&gt; 4 Geri      Halliwell Ginger        1972 FALSE       53
-#&gt; 5 Victoria  Beckham   Posh          1974 FALSE       51
+#&gt; 1 Melanie   Brown     Scary         1975 FALSE       51
+#&gt; 2 Melanie   Chisholm  Sporty        1974 FALSE       52
+#&gt; 3 Emma      Bunton    Baby          1976 FALSE       50
+#&gt; 4 Geri      Halliwell Ginger        1972 FALSE       54
+#&gt; 5 Victoria  Beckham   Posh          1974 FALSE       52
 ```
 
 ---
@@ -837,7 +825,7 @@ spicegirls %&gt;%
 ``` r
 spicegirls %&gt;%
     mutate(
-        age = 2025 - yearOfBirth,
+        age = 2026 - yearOfBirth,
 *       meanAge  = mean(age)) # Immediately using the "age" variable
 ```
 
@@ -845,11 +833,11 @@ spicegirls %&gt;%
 #&gt; # A tibble: 5 × 7
 #&gt;   firstName lastName  spice  yearOfBirth deceased   age meanAge
 #&gt;   &lt;chr&gt;     &lt;chr&gt;     &lt;chr&gt;        &lt;dbl&gt; &lt;lgl&gt;    &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1 Melanie   Brown     Scary         1975 FALSE       50    50.8
-#&gt; 2 Melanie   Chisholm  Sporty        1974 FALSE       51    50.8
-#&gt; 3 Emma      Bunton    Baby          1976 FALSE       49    50.8
-#&gt; 4 Geri      Halliwell Ginger        1972 FALSE       53    50.8
-#&gt; 5 Victoria  Beckham   Posh          1974 FALSE       51    50.8
+#&gt; 1 Melanie   Brown     Scary         1975 FALSE       51    51.8
+#&gt; 2 Melanie   Chisholm  Sporty        1974 FALSE       52    51.8
+#&gt; 3 Emma      Bunton    Baby          1976 FALSE       50    51.8
+#&gt; 4 Geri      Halliwell Ginger        1972 FALSE       54    51.8
+#&gt; 5 Victoria  Beckham   Posh          1974 FALSE       52    51.8
 ```
 
 ---
@@ -882,10 +870,7 @@ spicegirls %&gt;%
 
 class: inverse
 
-<div class="countdown" id="timer_18195ad7" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
-<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
+<countdown-timer class="countdown" id="timer_e5f4ea87" minutes="10" seconds="0" warn-when="30" update-every="1" tabindex="0" style="top:0;right:0;--countdown-font-size:2em;"></countdown-timer>
 
 ## Your turn
 
@@ -967,7 +952,7 @@ Compute the mean band member age across the whole dataset
 ``` r
 bands %&gt;%
     mutate(
-        age = 2025 - yearOfBirth,
+        age = 2026 - yearOfBirth,
 *       mean_age = mean(age) # This is the mean across both bands
     )
 ```
@@ -976,15 +961,15 @@ bands %&gt;%
 #&gt; # A tibble: 9 × 7
 #&gt;   firstName lastName  yearOfBirth deceased band         age mean_age
 #&gt;   &lt;chr&gt;     &lt;chr&gt;           &lt;dbl&gt; &lt;lgl&gt;    &lt;chr&gt;      &lt;dbl&gt;    &lt;dbl&gt;
-#&gt; 1 Melanie   Brown            1975 FALSE    spicegirls    50     65.4
-#&gt; 2 Melanie   Chisholm         1974 FALSE    spicegirls    51     65.4
-#&gt; 3 Emma      Bunton           1976 FALSE    spicegirls    49     65.4
-#&gt; 4 Geri      Halliwell        1972 FALSE    spicegirls    53     65.4
-#&gt; 5 Victoria  Beckham          1974 FALSE    spicegirls    51     65.4
-#&gt; 6 John      Lennon           1940 TRUE     beatles       85     65.4
-#&gt; 7 Paul      McCartney        1942 FALSE    beatles       83     65.4
-#&gt; 8 Ringo     Starr            1940 FALSE    beatles       85     65.4
-#&gt; 9 George    Harrison         1943 TRUE     beatles       82     65.4
+#&gt; 1 Melanie   Brown            1975 FALSE    spicegirls    51     66.4
+#&gt; 2 Melanie   Chisholm         1974 FALSE    spicegirls    52     66.4
+#&gt; 3 Emma      Bunton           1976 FALSE    spicegirls    50     66.4
+#&gt; 4 Geri      Halliwell        1972 FALSE    spicegirls    54     66.4
+#&gt; 5 Victoria  Beckham          1974 FALSE    spicegirls    52     66.4
+#&gt; 6 John      Lennon           1940 TRUE     beatles       86     66.4
+#&gt; 7 Paul      McCartney        1942 FALSE    beatles       84     66.4
+#&gt; 8 Ringo     Starr            1940 FALSE    beatles       86     66.4
+#&gt; 9 George    Harrison         1943 TRUE     beatles       83     66.4
 ```
 
 ---
@@ -996,7 +981,7 @@ Compute the mean band member age **for each band**
 
 ``` r
 bands %&gt;%
-    mutate(age = 2025 - yearOfBirth) %&gt;%
+    mutate(age = 2026 - yearOfBirth) %&gt;%
 *   group_by(band) %&gt;% # Everything after this will be done each band
     mutate(mean_age = mean(age))
 ```
@@ -1006,15 +991,15 @@ bands %&gt;%
 #&gt; # Groups:   band [2]
 #&gt;   firstName lastName  yearOfBirth deceased band         age mean_age
 #&gt;   &lt;chr&gt;     &lt;chr&gt;           &lt;dbl&gt; &lt;lgl&gt;    &lt;chr&gt;      &lt;dbl&gt;    &lt;dbl&gt;
-#&gt; 1 Melanie   Brown            1975 FALSE    spicegirls    50     50.8
-#&gt; 2 Melanie   Chisholm         1974 FALSE    spicegirls    51     50.8
-#&gt; 3 Emma      Bunton           1976 FALSE    spicegirls    49     50.8
-#&gt; 4 Geri      Halliwell        1972 FALSE    spicegirls    53     50.8
-#&gt; 5 Victoria  Beckham          1974 FALSE    spicegirls    51     50.8
-#&gt; 6 John      Lennon           1940 TRUE     beatles       85     83.8
-#&gt; 7 Paul      McCartney        1942 FALSE    beatles       83     83.8
-#&gt; 8 Ringo     Starr            1940 FALSE    beatles       85     83.8
-#&gt; 9 George    Harrison         1943 TRUE     beatles       82     83.8
+#&gt; 1 Melanie   Brown            1975 FALSE    spicegirls    51     51.8
+#&gt; 2 Melanie   Chisholm         1974 FALSE    spicegirls    52     51.8
+#&gt; 3 Emma      Bunton           1976 FALSE    spicegirls    50     51.8
+#&gt; 4 Geri      Halliwell        1972 FALSE    spicegirls    54     51.8
+#&gt; 5 Victoria  Beckham          1974 FALSE    spicegirls    52     51.8
+#&gt; 6 John      Lennon           1940 TRUE     beatles       86     84.8
+#&gt; 7 Paul      McCartney        1942 FALSE    beatles       84     84.8
+#&gt; 8 Ringo     Starr            1940 FALSE    beatles       86     84.8
+#&gt; 9 George    Harrison         1943 TRUE     beatles       83     84.8
 ```
 
 ---
@@ -1037,7 +1022,7 @@ Compute the mean band member age across the whole dataset
 
 ``` r
 bands %&gt;%
-    mutate(age = 2025 - yearOfBirth) %&gt;%
+    mutate(age = 2026 - yearOfBirth) %&gt;%
     summarise(mean_age = mean(age))
 ```
 
@@ -1045,7 +1030,7 @@ bands %&gt;%
 #&gt; # A tibble: 1 × 1
 #&gt;   mean_age
 #&gt;      &lt;dbl&gt;
-#&gt; 1     65.4
+#&gt; 1     66.4
 ```
 
 ---
@@ -1057,7 +1042,7 @@ Compute the mean band member age for **each band**
 
 ``` r
 bands %&gt;%
-    mutate(age = 2025 - yearOfBirth) %&gt;%
+    mutate(age = 2026 - yearOfBirth) %&gt;%
 *   group_by(band) %&gt;%
     summarise(mean_age = mean(age))
 ```
@@ -1066,8 +1051,8 @@ bands %&gt;%
 #&gt; # A tibble: 2 × 2
 #&gt;   band       mean_age
 #&gt;   &lt;chr&gt;         &lt;dbl&gt;
-#&gt; 1 beatles        83.8
-#&gt; 2 spicegirls     50.8
+#&gt; 1 beatles        84.8
+#&gt; 2 spicegirls     51.8
 ```
 
 ---
@@ -1079,7 +1064,7 @@ Compute the mean, min, and max band member age for **each band**
 
 ``` r
 bands %&gt;%
-    mutate(age = 2025 - yearOfBirth) %&gt;%
+    mutate(age = 2026 - yearOfBirth) %&gt;%
     group_by(band) %&gt;%
     summarise(
         mean_age = mean(age),
@@ -1092,8 +1077,8 @@ bands %&gt;%
 #&gt; # A tibble: 2 × 4
 #&gt;   band       mean_age min_age max_age
 #&gt;   &lt;chr&gt;         &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;
-#&gt; 1 beatles        83.8      82      85
-#&gt; 2 spicegirls     50.8      49      53
+#&gt; 1 beatles        84.8      83      86
+#&gt; 2 spicegirls     51.8      50      54
 ```
 
 ---
@@ -1187,10 +1172,7 @@ bands %&gt;%
 
 class: inverse
 
-<div class="countdown" id="timer_52f8e2fd" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
-<div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
-<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
-</div>
+<countdown-timer class="countdown" id="timer_b60de8bb" minutes="10" seconds="0" warn-when="30" update-every="1" tabindex="0" style="top:0;right:0;--countdown-font-size:2em;"></countdown-timer>
 
 ## Your turn
 
@@ -1210,7 +1192,7 @@ Then use `write_csv()` to save it as the file "height_summary.csv" in your "data
 
 ---
 
-# [HW 9](https://p4a.seas.gwu.edu/2025-Spring/hw/9-data-wrangling.html)
+# [HW 9](https://p4a.seas.gwu.edu/2026-Spring/hw/9-data-wrangling.html)
 
 --
 
@@ -1237,10 +1219,10 @@ weather
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9"
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
