@@ -79,12 +79,6 @@ Data is not copyright protected (in the US). But works are. Be careful.
 
 ---
 
-class: center, middle 
-
-## Another good resource:<br>https://www.zyte.com/learn/web-scraping-best-practices/
-
----
-
 ```{r child="topics/1.Rmd"}
 ```
 
@@ -653,7 +647,7 @@ class: center, middle, inverse
 
 <br>
 
-# .orange[Use a loop!]
+# .orange[Iterate!]
 
 ---
 
@@ -797,27 +791,34 @@ countdown(
 
 ## Your turn
 
-Template code is provided to scrape data on F1 drivers for the 2024 season from
-https://www.formula1.com/en/results/2024/drivers
+Template code is provided to scrape data on F1 drivers for the 2025 season from
+https://www.formula1.com/en/results/2025/drivers
 
-Your job is to extend it to scrape the data from seasons 2010 to 2024.
+Your job is to extend it to scrape the data from seasons 2010 to 2025.
 
 Your final dataset should look like this:
 
 ```{r}
 #| echo: false 
 
-url <- "https://www.formula1.com/en/results/2024/drivers"
-df_list <- read_html(url) %>% 
-    html_table()
+url <- "https://www.formula1.com/en/results.html/2025/drivers.html"
+df_list <- read_html(url) %>%
+  html_table()
 df <- df_list[[1]]
-df$year <- 2024
-df <- df %>% 
-    select(
-        year, position = Pos, driver = Driver, nationality = Nationality, 
-        team = Car, points = Pts
-    ) %>% 
-    separate(driver, into = c('first', 'last', 'abb'))
+df$year <- 2025 # Store the year (not in the scraped data)
+df <- df %>%
+  select(
+    year,
+    position = Pos.,
+    driver = Driver,
+    nationality = Nationality,
+    team = Team,
+    points = Pts.
+  ) %>%
+  mutate(
+    abb = str_sub(driver, -3, -1),
+    driver = str_replace(driver, abb, '')
+  )
 head(df)
 ```
 
@@ -858,7 +859,7 @@ class: center, middle, inverse
 
 <br>
 
-## 1. Is there a formatted dataset I can download?<br>(e.g. see [this page](https://eda.seas.gwu.edu/2024-Fall/finding-data.html))
+## 1. Is there a formatted dataset I can download?<br>(e.g. see [this page](https://eda.seas.gwu.edu/2025-Fall/finding-data.html))
 
 --
 
@@ -938,7 +939,7 @@ ALPHAVANTAGE_API_KEY=ZF33JCWPWWQDX4LW
 ### 5. Load your `.env` variables:
 
 ```{r}
-#| eval: true
+#| eval: false
 
 dotenv::load_dot_env()
 ```
