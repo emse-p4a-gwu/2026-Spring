@@ -4,7 +4,7 @@
     <title>Webscraping</title>
     <meta charset="utf-8" />
     <meta name="author" content="John Paul Helveston" />
-    <meta name="date" content="2025-04-17" />
+    <meta name="date" content="2026-04-16" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -19,16 +19,16 @@
     <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
     <meta name="description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
     <meta name="generator" content="xaringan and remark.js"/>
-    <meta name="github-repo" content="emse-p4a-gwu/2025-Spring"/>
+    <meta name="github-repo" content="emse-p4a-gwu/2026-Spring"/>
     <meta name="twitter:title" content="Webscraping"/>
     <meta name="twitter:description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
-    <meta name="twitter:url" content="https://p4a.seas.gwu.edu/2025-Spring/"/>
+    <meta name="twitter:url" content="https://p4a.seas.gwu.edu/2026-Spring/"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:creator" content="@johnhelveston"/>
     <meta name="twitter:site" content="@johnhelveston"/>
     <meta property="og:title" content="Webscraping"/>
     <meta property="og:description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
-    <meta property="og:url" content="https://p4a.seas.gwu.edu/2025-Spring/"/>
+    <meta property="og:url" content="https://p4a.seas.gwu.edu/2026-Spring/"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="en_US"/>
     <meta property="article:author" content="John Paul Helveston"/>
@@ -60,7 +60,7 @@ class: middle, inverse
 
 ### <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> EMSE 4571 / 6571: Intro to Programming for Analytics
 ### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg> John Paul Helveston
-### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/></svg> April 17, 2025
+### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/></svg> April 16, 2026
 
 ]
 
@@ -70,7 +70,7 @@ class: inverse
 
 # Quiz 10
 
-<div class="countdown" id="timer_7bb0f729" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:3em;">
+<div class="countdown" id="timer_4063c3f8" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:3em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -120,12 +120,6 @@ Generally are not upheld, unless you **need an account to access the data**.
 #### Copyright
 
 Data is not copyright protected (in the US). But works are. Be careful.
-
----
-
-class: center, middle 
-
-## Another good resource:&lt;br&gt;https://www.zyte.com/learn/web-scraping-best-practices/
 
 ---
 
@@ -638,7 +632,7 @@ df
 
 class: inverse
 
-<div class="countdown" id="timer_363de88e" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_4ed58890" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -689,7 +683,7 @@ class: center, middle, inverse
 
 &lt;br&gt;
 
-# .orange[Use a loop!]
+# .orange[Iterate!]
 
 ---
 
@@ -831,31 +825,31 @@ df &lt;- map_df(pages, \(x) get_page_data(x))
 
 class: inverse
 
-<div class="countdown" id="timer_34e75e30" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_94b5b5cd" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
 ## Your turn
 
-Template code is provided to scrape data on F1 drivers for the 2024 season from
-https://www.formula1.com/en/results/2024/drivers
+Template code is provided to scrape data on F1 drivers for the 2025 season from
+https://www.formula1.com/en/results/2025/drivers
 
-Your job is to extend it to scrape the data from seasons 2010 to 2024.
+Your job is to extend it to scrape the data from seasons 2010 to 2025.
 
 Your final dataset should look like this:
 
 
 ```
-#&gt; # A tibble: 6 × 8
-#&gt;    year position first   last          abb   nationality team                       points
-#&gt;   &lt;dbl&gt;    &lt;int&gt; &lt;chr&gt;   &lt;chr&gt;         &lt;chr&gt; &lt;chr&gt;       &lt;chr&gt;                       &lt;int&gt;
-#&gt; 1  2024        1 Max     VerstappenVER &lt;NA&gt;  NED         Red Bull Racing Honda RBPT    437
-#&gt; 2  2024        2 Lando   NorrisNOR     &lt;NA&gt;  GBR         McLaren Mercedes              374
-#&gt; 3  2024        3 Charles LeclercLEC    &lt;NA&gt;  MON         Ferrari                       356
-#&gt; 4  2024        4 Oscar   PiastriPIA    &lt;NA&gt;  AUS         McLaren Mercedes              292
-#&gt; 5  2024        5 Carlos  SainzSAI      &lt;NA&gt;  ESP         Ferrari                       290
-#&gt; 6  2024        6 George  RussellRUS    &lt;NA&gt;  GBR         Mercedes                      245
+#&gt; # A tibble: 6 × 7
+#&gt;    year position driver          nationality team            points abb  
+#&gt;   &lt;dbl&gt;    &lt;int&gt; &lt;chr&gt;           &lt;chr&gt;       &lt;chr&gt;            &lt;int&gt; &lt;chr&gt;
+#&gt; 1  2025        1 Lando Norris    GBR         McLaren            423 NOR  
+#&gt; 2  2025        2 Max Verstappen  NED         Red Bull Racing    421 VER  
+#&gt; 3  2025        3 Oscar Piastri   AUS         McLaren            410 PIA  
+#&gt; 4  2025        4 George Russell  GBR         Mercedes           319 RUS  
+#&gt; 5  2025        5 Charles Leclerc MON         Ferrari            242 LEC  
+#&gt; 6  2025        6 Lewis Hamilton  GBR         Ferrari            156 HAM
 ```
 
 ---
@@ -864,7 +858,7 @@ class: inverse, center
 
 # .fancy[Intermission]
 
-<div class="countdown" id="timer_873f21c2" data-warn-when="30" data-update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;margin:5%;font-size:8em;">
+<div class="countdown" id="timer_9fc01a17" data-warn-when="30" data-update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;margin:5%;font-size:8em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -897,7 +891,7 @@ class: center, middle, inverse
 
 &lt;br&gt;
 
-## 1. Is there a formatted dataset I can download?&lt;br&gt;(e.g. see [this page](https://eda.seas.gwu.edu/2024-Fall/finding-data.html))
+## 1. Is there a formatted dataset I can download?&lt;br&gt;(e.g. see [this page](https://eda.seas.gwu.edu/2025-Fall/finding-data.html))
 
 --
 
@@ -1025,12 +1019,12 @@ glimpse(df)
 ```
 #&gt; Rows: 100
 #&gt; Columns: 6
-#&gt; $ timestamp &lt;date&gt; 2025-04-11, 2025-04-10, 2025-04-09, 2025-04-08, 2025-04-07, 2025-04-04, 2025-04-03, 2025-04-02, 2025-04-01, 2025-03-31, 2025-03-28, 2025-03-27, 2025-03-26, 2025-03-25, 2025-03-24, 2025-03-21, 2025-03-20, 2025-03-19, 2025-03-18, 2…
-#&gt; $ open      &lt;dbl&gt; 920.000, 931.940, 855.930, 912.440, 827.845, 896.500, 901.800, 923.000, 927.500, 920.530, 972.000, 974.220, 993.810, 978.180, 969.670, 941.635, 950.010, 935.770, 940.000, 939.950, 901.460, 913.000, 914.600, 867.410, 875.070, 897.6…
-#&gt; $ high      &lt;dbl&gt; 944.8599, 941.2350, 951.4300, 922.4200, 906.7400, 906.6282, 946.5919, 949.5479, 932.2900, 934.4800, 974.9800, 989.0000, 996.7900, 998.7000, 977.0000, 963.6532, 967.0000, 968.0000, 948.2499, 967.6300, 919.6250, 921.8892, 927.1800, …
-#&gt; $ low       &lt;dbl&gt; 906.6800, 894.0000, 854.4000, 857.7000, 821.1000, 853.8700, 900.4700, 916.1100, 911.5000, 900.5900, 929.2300, 966.3664, 966.3200, 977.1100, 951.5500, 940.9500, 945.5000, 924.0000, 916.3000, 934.4200, 901.0000, 887.5100, 901.0000, …
-#&gt; $ close     &lt;dbl&gt; 918.29, 921.17, 945.47, 870.40, 867.83, 855.86, 917.05, 935.52, 928.38, 932.53, 933.85, 976.72, 970.65, 997.28, 971.99, 960.29, 950.84, 959.49, 929.98, 950.02, 918.00, 890.17, 919.68, 895.10, 866.68, 891.11, 906.36, 990.92, 972.58…
-#&gt; $ volume    &lt;dbl&gt; 4073638, 5129755, 7497974, 5625382, 6656823, 6798806, 5864622, 3256886, 3519956, 4634075, 4422717, 3047237, 3534707, 3782245, 4677871, 5905429, 4466305, 6662361, 6009400, 7543146, 5200684, 5001698, 6865837, 7398934, 6951652, 77374…
+#&gt; $ timestamp &lt;date&gt; 2026-04-14, 2026-04-13, 2026-04-10, 2026-04-09, 2026-04-08, 2026-04-07, 2026-04-06, 2026-04-02, 2026-04-01, 2026-03-31, 2026-03-30, 2026-03-27, 2026-03-26, 2026-03-25, 2026-03-24, 2026-03-23, 2026-03-20, 2026-03-19, 2026-03-18, 2…
+#&gt; $ open      &lt;dbl&gt; 103.120, 103.032, 102.470, 99.630, 100.320, 98.550, 100.960, 95.270, 96.470, 93.030, 92.750, 94.570, 91.520, 91.710, 92.790, 92.040, 91.310, 94.310, 94.445, 95.300, 95.580, 94.640, 94.860, 97.410, 97.805, 97.700, 99.330, 98.500, 9…
+#&gt; $ high      &lt;dbl&gt; 106.5700, 103.6650, 103.0800, 102.3400, 100.4000, 99.8750, 102.6850, 98.7100, 97.2000, 96.2600, 94.4900, 95.5799, 95.8600, 92.5200, 93.7398, 93.9800, 91.8800, 95.7500, 95.3350, 96.3400, 96.1000, 95.6800, 95.4000, 98.0000, 98.4900,…
+#&gt; $ low       &lt;dbl&gt; 103.0400, 102.0600, 101.4600, 99.0800, 97.4400, 98.2500, 97.9700, 95.1700, 94.2640, 93.0300, 92.2200, 92.7400, 91.0100, 91.2350, 90.8150, 91.8600, 90.6900, 90.7750, 93.6100, 94.0100, 94.3600, 94.2400, 93.8700, 94.6850, 96.2900, 96…
+#&gt; $ close     &lt;dbl&gt; 106.28, 103.16, 103.01, 102.05, 99.39, 98.82, 98.93, 98.66, 95.55, 96.15, 92.97, 93.43, 93.32, 92.28, 90.92, 93.38, 91.82, 91.74, 94.70, 94.36, 95.20, 95.31, 94.31, 94.89, 96.94, 98.32, 99.02, 99.17, 98.66, 97.70, 97.09, 96.24, 84…
+#&gt; $ volume    &lt;dbl&gt; 40534865, 26042804, 25769905, 35087760, 30957619, 25016718, 37029334, 37068024, 30439305, 54269957, 32375138, 44590673, 59522026, 29545625, 28938033, 34315874, 61678012, 40169250, 27878318, 26434496, 34931831, 29876659, 34206855, …
 ```
 
 ]
@@ -1063,7 +1057,7 @@ df %&gt;%
 
 .rightcol45[
 
-&lt;img src="figs/unnamed-chunk-51-1.png" width="504" /&gt;
+&lt;img src="figs/unnamed-chunk-50-1.png" width="504" /&gt;
 
 ]
 
@@ -1081,7 +1075,7 @@ class: center, middle
 
 class: inverse
 
-<div class="countdown" id="timer_ad45ac08" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_9419e84f" data-warn-when="30" data-update-every="1" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -1103,21 +1097,21 @@ class: inverse
 
 .rightcol45[
 
-&lt;img src="figs/unnamed-chunk-53-1.png" width="504" /&gt;
+&lt;img src="figs/unnamed-chunk-52-1.png" width="504" /&gt;
 
 ]
 
 ---
 
-# [HW12](https://p4a.seas.gwu.edu/2025-Spring/hw/12-webscraping.html)
+# [HW12](https://p4a.seas.gwu.edu/2026-Spring/hw/12-webscraping.html)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9"
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
