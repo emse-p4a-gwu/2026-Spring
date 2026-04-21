@@ -4,7 +4,7 @@
     <title>Monte Carlo Methods</title>
     <meta charset="utf-8" />
     <meta name="author" content="John Paul Helveston" />
-    <meta name="date" content="2025-04-24" />
+    <meta name="date" content="2026-04-23" />
     <script src="libs/header-attrs/header-attrs.js"></script>
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/tile-view/tile-view.css" rel="stylesheet" />
@@ -19,16 +19,16 @@
     <link href="libs/xaringanExtra-extra-styles/xaringanExtra-extra-styles.css" rel="stylesheet" />
     <meta name="description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
     <meta name="generator" content="xaringan and remark.js"/>
-    <meta name="github-repo" content="emse-p4a-gwu/2025-Spring"/>
+    <meta name="github-repo" content="emse-p4a-gwu/2026-Spring"/>
     <meta name="twitter:title" content="Monte Carlo Methods"/>
     <meta name="twitter:description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
-    <meta name="twitter:url" content="https://p4a.seas.gwu.edu/2025-Spring/"/>
+    <meta name="twitter:url" content="https://p4a.seas.gwu.edu/2026-Spring/"/>
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:creator" content="@johnhelveston"/>
     <meta name="twitter:site" content="@johnhelveston"/>
     <meta property="og:title" content="Monte Carlo Methods"/>
     <meta property="og:description" content="EMSE 4571 / 6571: Intro to Programming for Analytics"/>
-    <meta property="og:url" content="https://p4a.seas.gwu.edu/2025-Spring/"/>
+    <meta property="og:url" content="https://p4a.seas.gwu.edu/2026-Spring/"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="en_US"/>
     <meta property="article:author" content="John Paul Helveston"/>
@@ -60,7 +60,7 @@ class: middle, inverse
 
 ### <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M243.4 2.6l-224 96c-14 6-21.8 21-18.7 35.8S16.8 160 32 160v8c0 13.3 10.7 24 24 24H456c13.3 0 24-10.7 24-24v-8c15.2 0 28.3-10.7 31.3-25.6s-4.8-29.9-18.7-35.8l-224-96c-8-3.4-17.2-3.4-25.2 0zM128 224H64V420.3c-.6 .3-1.2 .7-1.8 1.1l-48 32c-11.7 7.8-17 22.4-12.9 35.9S17.9 512 32 512H480c14.1 0 26.5-9.2 30.6-22.7s-1.1-28.1-12.9-35.9l-48-32c-.6-.4-1.2-.7-1.8-1.1V224H384V416H344V224H280V416H232V224H168V416H128V224zM256 64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg> EMSE 4571 / 6571: Intro to Programming for Analytics
 ### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M304 128a80 80 0 1 0 -160 0 80 80 0 1 0 160 0zM96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM49.3 464H398.7c-8.9-63.3-63.3-112-129-112H178.3c-65.7 0-120.1 48.7-129 112zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3z"/></svg> John Paul Helveston
-### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/></svg> April 24, 2025
+### <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:white;overflow:visible;position:relative;"><path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z"/></svg> April 23, 2026
 
 ]
 
@@ -187,7 +187,7 @@ head(tosses) # Preview first few tosses
 ```
 
 ```
-#&gt; [1] "tails" "heads" "heads" "tails" "tails" "tails"
+#&gt; [1] "tails" "tails" "tails" "heads" "heads" "heads"
 ```
 
 --
@@ -200,7 +200,7 @@ sum(tosses == "heads") / N
 ```
 
 ```
-#&gt; [1] 0.4925
+#&gt; [1] 0.4928
 ```
 
 ---
@@ -222,7 +222,7 @@ head(tosses) # Preview first few tosses
 ```
 
 ```
-#&gt; [1] "heads" "tails" "tails" "tails" "tails" "heads"
+#&gt; [1] "heads" "tails" "heads" "heads" "tails" "tails"
 ```
 
 --
@@ -235,7 +235,7 @@ sum(tosses == "heads") / N
 ```
 
 ```
-#&gt; [1] 0.394
+#&gt; [1] 0.3959
 ```
 
 ---
@@ -275,12 +275,12 @@ head(rolls)
 #&gt; # A tibble: 6 × 3
 #&gt;   roll1 roll2 roll3
 #&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;dbl&gt;
-#&gt; 1     2     2     1
-#&gt; 2     1     2     5
-#&gt; 3     2     4     1
-#&gt; 4     5     2     1
-#&gt; 5     5     3     3
-#&gt; 6     4     3     6
+#&gt; 1     1     2     1
+#&gt; 2     3     6     2
+#&gt; 3     5     6     6
+#&gt; 4     6     5     5
+#&gt; 5     2     3     4
+#&gt; 6     4     2     1
 ```
 
 ]
@@ -300,7 +300,7 @@ nrow(successes) / N
 ```
 
 ```
-#&gt; [1] 0.0041
+#&gt; [1] 0.0042
 ```
 
 --
@@ -321,7 +321,7 @@ _Actual_ probability of getting sequence 1, 3, 5:
 name: tps1
 class: inverse
 
-<div class="countdown" id="timer_a9133080" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_9d94db77" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -385,7 +385,7 @@ draw
 ```
 
 ```
-#&gt; [1] 10  2 10
+#&gt; [1]  3  6 10
 ```
 
 ---
@@ -420,7 +420,11 @@ Make a function that returns 3 cards in a data frame:
 
 ``` r
 three_card_sum &lt;- function(deck) {
-  cards &lt;- sample(x = deck, size = 3, replace = FALSE)
+  cards &lt;- sample(
+    x = deck, 
+    size = 3, 
+    replace = FALSE
+  )
   return(sum(cards))
 }
 
@@ -428,7 +432,7 @@ three_card_sum(deck)
 ```
 
 ```
-#&gt; [1] 7
+#&gt; [1] 18
 ```
 
 ]
@@ -443,15 +447,18 @@ Repeat the 3-card draw _N_ times:
 ``` r
 N &lt;- 10000
 
-sums &lt;- map_int(1:N, function(x) three_card_sum(deck))
+three_card_sums &lt;- map_int(
+  1:N, 
+  function(x) three_card_sum(deck)
+)
 
-count &lt;- sum(sums == 13)
+count &lt;- sum(three_card_sums == 13)
 
 count / N # Compute the probability
 ```
 
 ```
-#&gt; [1] 0.035
+#&gt; [1] 0.0367
 ```
 
 ]
@@ -482,7 +489,7 @@ count / N # Compute the probability
 ```
 
 ```
-#&gt; [1] 0.0371
+#&gt; [1] 0.0391
 ```
 
 ---
@@ -490,7 +497,7 @@ count / N # Compute the probability
 name: tps2
 class: inverse
 
-<div class="countdown" id="timer_4791ea0e" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_ac34c7c5" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -538,7 +545,7 @@ class: inverse, center
 
 # .fancy[Intermission]
 
-<div class="countdown" id="timer_7d7fa83c" data-warn-when="30" data-update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;margin:5%;font-size:8em;">
+<div class="countdown" id="timer_520ade61" data-warn-when="30" data-update-every="1" tabindex="0" style="top:1;right:0;bottom:0;left:0;margin:5%;font-size:8em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -605,7 +612,7 @@ sample_continuous
 ```
 
 ```
-#&gt; [1] 0.8960666 0.8243849 0.8910242 0.4139428 0.6037514
+#&gt; [1] 0.26053556 0.77522196 0.02003059 0.79451214 0.50433068
 ```
 
 ]
@@ -701,12 +708,12 @@ head(points)
 #&gt; # A tibble: 6 × 3
 #&gt;       x     y belowCurve
 #&gt;   &lt;dbl&gt; &lt;dbl&gt; &lt;lgl&gt;     
-#&gt; 1  4.70  21.5 TRUE      
-#&gt; 2  5.59  18.5 TRUE      
-#&gt; 3  5.62  39.6 FALSE     
-#&gt; 4  4.81  57.3 FALSE     
-#&gt; 5  7.29  38.8 TRUE      
-#&gt; 6  6.37  35.0 TRUE
+#&gt; 1  5.18  6.03 TRUE      
+#&gt; 2  7.61 62.2  FALSE     
+#&gt; 3  4.34 56.1  FALSE     
+#&gt; 4  5.35  3.65 TRUE      
+#&gt; 5  7.58 42.3  TRUE      
+#&gt; 6  4.13 44.2  FALSE
 ```
 
 ]
@@ -738,7 +745,7 @@ points_ratio
 ```
 
 ```
-#&gt; [1] 0.58268
+#&gt; [1] 0.58226
 ```
 
 ``` r
@@ -747,7 +754,7 @@ area_under_curve
 ```
 
 ```
-#&gt; [1] 149.1661
+#&gt; [1] 149.0586
 ```
 ]
 
@@ -769,7 +776,7 @@ area_under_curve
 ```
 
 ```
-#&gt; [1] 149.1661
+#&gt; [1] 149.0586
 ```
 
 --
@@ -789,7 +796,7 @@ true_area &lt;- ((8^3 / 3) - (4^3 / 3))
 ```
 
 ```
-#&gt; [1] -0.112
+#&gt; [1] -0.184
 ```
 
 ---
@@ -876,7 +883,7 @@ Ratio of areas = `\(\pi / 4\)`:
 name: tps3
 class: inverse
 
-<div class="countdown" id="timer_2efbf5d9" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_33f3dd8f" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -915,7 +922,7 @@ class: center, middle, inverse
 name: tps4
 class: inverse
 
-<div class="countdown" id="timer_0345bb0e" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
+<div class="countdown" id="timer_d939591e" data-warn-when="30" data-update-every="15" data-blink-colon="true" tabindex="0" style="top:0;right:0;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">&minus;</button><button class="countdown-bump-up">&plus;</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -959,15 +966,15 @@ In this simulation, the prize is always behind door #1:
 
 --
 
-### 2) Final is [Thursday, May 08, 3:00pm-5:00pm, same room](https://my.gwu.edu/mod/exam_schedules/?x=E)
+### 2) Final is [Thursday, May 07, 3:00pm-5:00pm, same room](https://my.gwu.edu/mod/exam_schedules/?x=E)
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"highlightStyle": "github",
-"highlightLines": true,
-"countIncrementalSlides": false,
-"ratio": "16:9"
+  "highlightStyle": "github",
+  "highlightLines": true,
+  "countIncrementalSlides": false,
+  "ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));

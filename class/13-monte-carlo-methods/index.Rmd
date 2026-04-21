@@ -320,7 +320,11 @@ Make a function that returns 3 cards in a data frame:
 
 ```{r}
 three_card_sum <- function(deck) {
-  cards <- sample(x = deck, size = 3, replace = FALSE)
+  cards <- sample(
+    x = deck, 
+    size = 3, 
+    replace = FALSE
+  )
   return(sum(cards))
 }
 
@@ -338,9 +342,12 @@ Repeat the 3-card draw _N_ times:
 ```{r}
 N <- 10000
 
-sums <- map_int(1:N, function(x) three_card_sum(deck))
+three_card_sums <- map_int(
+  1:N, 
+  function(x) three_card_sum(deck)
+)
 
-count <- sum(sums == 13)
+count <- sum(three_card_sums == 13)
 
 count / N # Compute the probability
 ```
