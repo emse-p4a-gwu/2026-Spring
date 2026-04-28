@@ -1,7 +1,7 @@
 ---
 title: "Final Review"
 subtitle: "EMSE 4571 / 6571: Intro to Programming for Analytics"
-date: April 30, 2026
+date: April 28, 2026
 week: 14
 class: "14-final-review"
 author: "John Paul Helveston"
@@ -53,55 +53,26 @@ birds <- read_csv(here::here('data', 'wildlife_impacts.csv'))
 
 ---
 
-# Format: 2-part exam
+# Overview
 
-.leftcol[
-
-## Part 1
-
+- May 7, Tompkins 201 (our normal room), 3-5pm
 - Hand-written exam (like midterm).
-- You may use a single 8.5 x 11 sheet of notes.
+- You may use two 8.5 x 11 sheets of notes.
 - No calculators, no books, no computers, no phones, no internet.
 
-]
+# Questions
 
-.rightcol[
-
-## Part 2 (data analysis)
-
-- Need your laptop (make sure it's charged!). 
-- Can only start Part 2 after turning in Part 1.
-- You may use RStudio, the course website, and chatGPT.
-
-]
-
----
-
-# What's on the final? 
-
-## Comprehensive, except for Webscraping & Monte Carlo
-
-.leftcol[
-
-## Part 1
-
-- 10 True / False questions.
-- 4 Short answer questions.
-- 2 Code tracing.
-- Hand-write one function and test function.
-
-]
-
-.rightcol[
-
-## Part 2
-
-- Read in a dataset. 
-- Answer questions about the data (using tidyverse tools).
-- Make a visualization about the data.
-- Bonus: Scrape a website, and run a Monte Carlo simulation
-
-]
+```
+10x TRUE or FALSE       17%
+4x  Short Response      14%
+2x  Code Tracing        10%
+1x  Write Function      10%
+1x  Write Test Function 10%
+4x  Data Analysis       32%
+1x  Webscraping         7%
+1x  Bonus 1             2%
+1x  Bonus 2             3%
+```
 
 ---
 
@@ -109,26 +80,25 @@ birds <- read_csv(here::here('data', 'wildlife_impacts.csv'))
 
 Reasons to not cheat:
 
-- Evidence of working with another person on the final results in a<br>**0 for all individuals involved** (and I'll push for class failure too).
-- It's sooooooo easy to tell if you cheated.
-- I'm letting you use chatGPT for part 2!
+- Evidence of working with another person on the final results in a<br>**0 for all individuals involved**
+- It's sooooooo easy to catch (trust me)
 - I'm a pretty soft grader anyway (you'll get 50% for just _trying_!)
 
 ---
 
-# Phone policy
+# Policies
+
+## Phones
 
 - No phones during the exam.
-- Silence your phone, then hand it to Pingfan when you enter.
-- Pingfan will note anyone using a phone.
+- Silence your phone, then place it on the phone table when you enter.
 
----
+--
 
-# Talking policy
+## Talking
 
 - No talking with each other during the exam.
-- You may come up and ask Pingfan a question if you have one.
-- Pingfan will note anyone talking with each other.
+- You may come up and ask me a question if you have one.
 
 ---
 
@@ -137,14 +107,11 @@ Reasons to not cheat:
 --
 
 - Lecture slides, especially practice puzzles covered in class
-
---
-
 - Previous quizzes
 
---
+---
 
-- Memorize syntax for:
+## Things to memorize<br>(and / or put on cheat sheet):
 
   - operators (e.g. mod `%%` and integer division `%/%`)
   - "number chopping" with `%%` and `%/%`
@@ -156,7 +123,9 @@ Reasons to not cheat:
   - test functions
   - dplyr functions (`select`, `filter`, `mutate`, `arrange`, `group_by`, `summarise`)
   - How to use ggplot
-
+  - Data frame functions using the `{{}}` syntax
+  - How to use `map()` (and variants like `map_df()`, `map_int()`, etc.)
+  
 ---
 
 ```{r child="topics/0.Rmd"}
@@ -2001,8 +1970,6 @@ class: inverse, center, middle
 # Webscraping
 
 ---
-
-## There will be a bonus question on scraping a website
 
 ## General tips:
 
