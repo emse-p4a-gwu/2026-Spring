@@ -560,36 +560,25 @@
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
   },
   {
-    "objectID": "class/13-monte-carlo-methods.html",
-    "href": "class/13-monte-carlo-methods.html",
-    "title": "Monte Carlo Methods",
+    "objectID": "class/14-final-review.html",
+    "href": "class/14-final-review.html",
+    "title": "Final Exam Review",
     "section": "",
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
   },
   {
-    "objectID": "class/11-programming-with-data.html",
-    "href": "class/11-programming-with-data.html",
-    "title": "Programming with Data",
+    "objectID": "class/12-webscraping.html",
+    "href": "class/12-webscraping.html",
+    "title": "Webscraping",
     "section": "",
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
   },
   {
-    "objectID": "class/1-getting-started.html",
-    "href": "class/1-getting-started.html",
-    "title": "Getting Started",
+    "objectID": "class/10-data-visualization.html",
+    "href": "class/10-data-visualization.html",
+    "title": "Data Visualization",
     "section": "",
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This course provides a foundation in programming for analytics using the R programming language with a comparison to Python. Topics covered include fundamentals of programming (operators, data types, objects, functions, conditionals, loops, strings, testing, and debugging) as well as techniques for working with data sets in R and Python (file input/output, data structures, data wrangling, data visualization, external packages, and reproducible reporting). Emphasis will be on producing clear, robust, and reasonably efficient code using top-down design, informal analysis, and effective testing and debugging. Students will primarily work on individual programming assignments to develop skills in computational problem solving, writing code, and working with data. Students will be assessed through quizzes, homework assignments, and exams. Teaching will involve interactive lectures with plenty of time spent live coding and working on practice problems in class. This course assumes no prior programming experience and is an ideal preparation for higher level courses in data analytics.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester.",
-    "crumbs": [
-      "Other",
-      "About"
-    ]
   },
   {
     "objectID": "LICENSE.html",
@@ -603,25 +592,43 @@
     ]
   },
   {
-    "objectID": "class/10-data-visualization.html",
-    "href": "class/10-data-visualization.html",
-    "title": "Data Visualization",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This course provides a foundation in programming for analytics using the R programming language with a comparison to Python. Topics covered include fundamentals of programming (operators, data types, objects, functions, conditionals, loops, strings, testing, and debugging) as well as techniques for working with data sets in R and Python (file input/output, data structures, data wrangling, data visualization, external packages, and reproducible reporting). Emphasis will be on producing clear, robust, and reasonably efficient code using top-down design, informal analysis, and effective testing and debugging. Students will primarily work on individual programming assignments to develop skills in computational problem solving, writing code, and working with data. Students will be assessed through quizzes, homework assignments, and exams. Teaching will involve interactive lectures with plenty of time spent live coding and working on practice problems in class. This course assumes no prior programming experience and is an ideal preparation for higher level courses in data analytics.\nThis course was inspired by many other courses / resources that cover similar material. In addition to my own developed material, I have also modified material from other courses and workshops - a full list of sources can be found in the LICENSE page.\nThis course was originally created by Dr. John Paul Helveston at the George Washington University for the Spring 2020 semester.",
+    "crumbs": [
+      "Other",
+      "About"
+    ]
+  },
+  {
+    "objectID": "class/1-getting-started.html",
+    "href": "class/1-getting-started.html",
+    "title": "Getting Started",
     "section": "",
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
   },
   {
-    "objectID": "class/12-webscraping.html",
-    "href": "class/12-webscraping.html",
-    "title": "Webscraping",
+    "objectID": "class/11-programming-with-data.html",
+    "href": "class/11-programming-with-data.html",
+    "title": "Programming with Data",
     "section": "",
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
   },
   {
-    "objectID": "class/14-final-review.html",
-    "href": "class/14-final-review.html",
-    "title": "Final Exam Review",
+    "objectID": "class/13-monte-carlo-methods.html",
+    "href": "class/13-monte-carlo-methods.html",
+    "title": "Monte Carlo Methods",
     "section": "",
     "text": "KEYBOARD SHORTCUTS FOR SLIDES:\n\nUse ← and → to navigate through the slides.\nUse f to toggle full screen.\nUse o to view an overview of all slides.\nUse h to see a list of other shortcuts.\n\n\n\n\nSLIDES\n View slides\n Download PDF\n\n\n\n\nCLASS PRACTICE\n Notes zip file"
+  },
+  {
+    "objectID": "class/15-final-exam.html",
+    "href": "class/15-final-exam.html",
+    "title": "Final Exam",
+    "section": "",
+    "text": "Summary of final exam:\n\n\n\n\nItem\nWeight\n\n\n\n\n10x TRUE or FALSE\n17%\n\n\n4x Short Response\n14%\n\n\n2x Code Tracing\n10%\n\n\n1x Write Function\n9.5%\n\n\n1x Write Test Function\n9.5%\n\n\n4x Data Analysis\n35%\n\n\n1x Webscraping\n5%\n\n\n1x Bonus\n3%\n\n\n\n\nTOPICS\nEverything - comprehensive, though more content on 2nd half of semester\nWHEN / WHERE\nMay 7, Tompkins 201 (our normal room), 3-5pm\nRULES\n\nYou have up to 2 hours to finish this exam.\nYou may use two 8.5 x 11 sheets of notes (front and back…you can re-use your midterm sheet if you wish as one sheet).\nYou may ask the instructor questions for clarifications.\nYou may use any blank space on the exam as scratch paper.\nWork alone—you are not allowed to communicate with anyone other than the instructor or proctor during this exam.\nNo calculators, no books, no computers, no phones, no internet.\nWhen you arrive, you must turn in your phone at the front table; you may retrieve it after turning in your exam. Usage of phones during the exam will be considered a violation of the rules and will result in a zero on the exam."
   },
   {
     "objectID": "class/3-creating-functions.html",
