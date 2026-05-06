@@ -1,0 +1,40 @@
+---
+title: "Final Exam"
+params:
+  class: "15-final-exam"
+---
+
+Summary of final exam:
+
+<div style="width:400px;">
+| Item | Weight |
+|---|---|
+| 10x TRUE or FALSE | 17% |
+| 4x Short Response | 14% |
+| 2x Code Tracing | 10% |
+| 1x Write Function | 9.5% |
+| 1x Write Test Function | 9.5% |
+| 4x Data Analysis | 35% |
+| 1x Webscraping | 5% |
+| 1x Bonus | 3% |
+</div>
+
+TOPICS
+
+Everything - comprehensive, though more content on 2nd half of semester
+
+WHEN / WHERE
+
+May 7, Tompkins 201 (our normal room), 3-5pm
+
+RULES
+
+- You have up to 2 hours to finish this exam.
+- You may use two 8.5 x 11 sheets of notes (front and back...you can re-use your midterm sheet if you wish as one sheet).
+- You may ask the instructor questions for clarifications.
+- You may use any blank space on the exam as scratch paper.
+- Work alone---you are not allowed to communicate with anyone other than the instructor or proctor during this exam.
+- No calculators, no books, no computers, no phones, no internet.
+- When you arrive, you must turn in your phone at the front table; you may retrieve it after turning in your exam. Usage of phones during the exam will be considered a violation of the rules and will result in a zero on the exam.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aH7HJsgNDYY?si=b7zywc33CVhsTDoF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

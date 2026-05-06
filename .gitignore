@@ -8,3 +8,5 @@
 _site
 site_libs
 .positai
+
+**/*.quarto_ipynb
